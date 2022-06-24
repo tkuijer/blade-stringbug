@@ -5,9 +5,9 @@
     </head>
     <body>
         <!-- Doesn't work -->
-        <x-bug-label :value="__('(error')" />
+        <x-bug-label :value="'error)'" />
 
         <!-- Does work -->
-        <x-bug-label :value="__('(works)')" />
+        <x-bug-label :value="'(works)'" />
     </body>
 </html>
